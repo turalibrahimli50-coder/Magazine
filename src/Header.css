@@ -1,0 +1,42 @@
+.top-bar{
+    background-color: black;
+}
+.red-block{
+    background-color:#EC0D0D;
+    font-size:13px;
+    font-weight:600;
+    text-align: center;
+    font-family:"Open Sans",Arial,sans-serif;
+    padding: 5px 30px;
+    border: none;
+    color: white;
+}
+.top-bar i{
+    color: white !important;
+}
+.second-bar{
+    background-color:#FFFFFF;
+}
+.folded-li{
+    color:#383838;
+    font-size:18px;
+    font-weight:600;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px !important;
+}
+.long-photo{
+    max-height:88px;
+    min-height:55px;
+   object-position: center;
+   width: 100%;
+}
+.gray-part{
+background-color:#F6F6F6;
+padding-top: 30px;
+padding-bottom: 30px;
+}
