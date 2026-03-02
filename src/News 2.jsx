@@ -479,7 +479,7 @@ useEffect(()=>{
                     <li>August 14, 2016</li>
                   </ul>
                 </div>
-          <div className="d-flex justify-content-center align-items-center flex-column" style={{position:"sticky",top:"0px"}}>
+          <div className="d-flex justify-content-center align-items-center flex-column">
   <div className="gray-input-box  text-center d-flex flex-column">
     <h4 className="gray-input-big-writing">Your daily updates</h4>
     <p className="gray-input-writing text-center">Subscribe now. We’ll make sure you never miss a thing</p>

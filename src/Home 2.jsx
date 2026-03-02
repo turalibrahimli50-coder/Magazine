@@ -35,7 +35,7 @@ useEffect(()=>{
                 >
                   <div className="left-side">
                     <button className="red-block">Breaking</button>
-                    <p className="bigwriting1"><Link to={`news/${data[0]?.id}`} style={{textDecoration:"none",color:"white"}}>{data[0]?.name}</Link></p>
+                    <p className="bigwriting1"><Link to={`news/${data[0]?.id}`}>{data[0]?.name}</Link></p>
                     <div className="inline-section">
                       <p>Shane Doe</p>
                       <p>August 14, 2016</p>
@@ -54,7 +54,7 @@ useEffect(()=>{
                 >
                   <div className="left-side">
                     <button className="red-block">Breaking</button>
-                    <p className="bigwriting2"><Link to={`news/${data[1]?.id}`} style={{textDecoration:"none",color:"white"}}>{data[1]?.name}</Link></p>
+                    <p className="bigwriting2"><Link to={`news/${data[1]?.id}`}>{data[1]?.name}</Link></p>
                     <div className="inline-section">
                       <p>Shane Doe</p>
                       <p>August 14, 2016</p>
@@ -73,7 +73,7 @@ useEffect(()=>{
                 >
                   <div className="left-side">
                     <button className="red-block">Breaking</button>
-                    <p className="bigwriting2"><Link to={`news/${data[2]?.id}`} style={{textDecoration:"none",color:"white"}}>{data[2]?.name}</Link></p>
+                    <p className="bigwriting2"><Link to={`news/${data[2]?.id}`}>{data[2]?.name}</Link></p>
                     <div className="inline-section">
                       <p>Shane Doe</p>
                       <p>August 14, 2016</p>
