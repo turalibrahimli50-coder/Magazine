@@ -12,12 +12,6 @@ useEffect(()=>{
     console.log(r)
   })
 },[])
-
-
-
-
-
-
   return (
     <>
       <section>

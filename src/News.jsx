@@ -198,8 +198,7 @@ useEffect(()=>{
                     <button className="last-button">{data?.username}</button>
                     <button className="last-button">{data?.username}</button>
  </div>
- </div>
-                    <div
+  <div
                       className="d-flex rounded-icon-groups-bottom"
                       style={{ gap: "5px" }}
                     >
@@ -219,6 +218,8 @@ useEffect(()=>{
                         <i className="fa-regular fa-envelope"></i>
                       </div>
                     </div>
+ </div>
+                   
                   </div>
                   <div className="latets-gray-part-in-the-bottom">
 <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
