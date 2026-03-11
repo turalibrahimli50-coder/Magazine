@@ -97,7 +97,7 @@ function News() {
 
   return (
     <>
-      {/* ── Hero ── */}
+   
       <section style={{ marginTop: "50px" }}>
         <div className="container">
           <div className="head-second">
@@ -117,12 +117,10 @@ function News() {
         </div>
       </section>
 
-      {/* ── Main + Sidebar ── */}
       <section style={{ marginTop: "50px", marginBottom: "50px" }}>
         <div className="container">
           <div className="row">
 
-            {/* Main Content */}
             <div className="col-md-8 main-part">
               <div className="main-photo-div" style={{ width: "100%" }}>
                 <img
@@ -205,7 +203,6 @@ function News() {
               </div>
               <p className="paragraph3 text-center">Build own laptop screen</p>
 
-              {/* Tags + Share Icons */}
               <div className="division-part">
                 <div style={{ display: "flex", gap: "5px" }}>
                   {[data?.username, data?.username, data?.username].map((tag, i) => (
@@ -227,7 +224,6 @@ function News() {
                 </div>
               </div>
 
-              {/* Author Box */}
               <div className="author-box">
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                   <img
@@ -252,7 +248,6 @@ function News() {
                 </div>
               </div>
 
-              {/* Related Posts */}
               <div>
                 <h4>Related Posts</h4>
                 <div className="progress-bar-container">
@@ -272,7 +267,6 @@ function News() {
                 </div>
               </div>
 
-              {/* Comments */}
               <div>
                 <h4><span style={{ color: "red", marginRight: "10px" }}>5</span>Comments</h4>
                 <div className="progress-bar-container">
@@ -285,7 +279,6 @@ function News() {
                 <CommentItem indent />
               </div>
 
-              {/* Write Comment */}
               <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", marginTop: "32px" }}>
                 <h4>WRITE A COMMENT</h4>
                 <div className="underline"></div>
@@ -315,7 +308,6 @@ function News() {
               </div>
             </div>
 
-            {/* ── Sidebar ── */}
             <div className="col-md-4 side-part">
               <div className="head-group text-center">
                 <h5 style={{ fontWeight: 700 }}>LATEST</h5>
@@ -407,7 +399,6 @@ function News() {
         </div>
       </section>
 
-      {/* ── Footer Dark ── */}
       <section className="latest-part-of-the-site">
         <div className="container">
           <div className="row">
@@ -444,8 +435,6 @@ function News() {
           </div>
         </div>
       </section>
-
-      {/* ── Fixed Share ── */}
       <div className="fixed-group">
         <p className="text-center" style={{ fontSize: "13px", fontWeight: 500, marginBottom: "30px" }}>SHARE</p>
         <div className="d-flex flex-column justify-content-center align-items-center">
